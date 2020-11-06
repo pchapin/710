@@ -17,4 +17,4 @@ This project is about conducting numerical experiments to address these question
 Gliese 710 but for any similar kind of encounter.
 
 Peter Chapin  
-spicacality@gmail.com
+chapinp@acm.org
