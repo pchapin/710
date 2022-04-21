@@ -1,6 +1,6 @@
 
 # Define an immutable structure for holding information about the planets.
-immutable PlanetData
+struct PlanetData
     radius   :: Float64
     mass     :: Float64
     distance :: Float64
@@ -13,7 +13,7 @@ earth_period = 3600.0 * 24.0 * 365.25  # Period in seconds.
 
 # Open the planets file and read it one line at a time.
 planet_data = Dict{String, PlanetData}()
-planet_file = open("planets.txt")
+planet_file = open("src/planets.txt")
 line_iterator = eachline(planet_file)
 for line = line_iterator
 
